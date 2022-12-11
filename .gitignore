@@ -1,0 +1,6 @@
+
+*.elc
+
+# ELPA-generated files
+/inf-clojure-autoloads.el
+/inf-clojure-pkg.el

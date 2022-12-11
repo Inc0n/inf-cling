@@ -1,0 +1,9 @@
+* inf-cling
+This is a new package provides basic interaction with a Cling subprocess (REPL).
+
+Therefore you need to install https://github.com/root-project/cling.
+
+The predecessor https://github.com/brianqq/inferior-cling is 10 years old, and there is input echoing which is dealt with in this package (https://github.com/root-project/cling/issues/481)
+
+To start, enable =inf-cling-minor-mode= in a c++ buffer (using mode hook for example), and =run-cling= (or ~C-c C-z~). Now you can start evaluating regions (~C-c C-r~)or buffers (~C-c C-b~).
+
